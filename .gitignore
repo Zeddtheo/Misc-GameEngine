@@ -1,0 +1,21 @@
+# 忽略所有文件
+*
+
+# 但不忽略目录，以便可以递归检查
+!*/
+
+# 不忽略.gitignore文件
+!.gitignore
+
+# 允许跟踪常见的源代码文件
+!*.cpp
+!*.h
+!*.vert
+!*.vert.spv
+!*.frag
+!*.frag.spv
+!*.obj
+!*.bat
+# 继续添加你需要跟踪的其他源代码文件扩展名
+# Ignore Visual Studio temporary files
+*.ipch
